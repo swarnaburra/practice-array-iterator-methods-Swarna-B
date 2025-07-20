@@ -57,9 +57,9 @@ let favoriteFood = ["Waffle", "Pancakes", "Cakes", "Croissant", "Cinnamon roll",
 
 let firstFoodWithMoreThan4Characters = favoriteFood.find(food => food.length > 4);
 
-// 3. Use findIndex() to find the index of that food
+
 let firstFoodWithMoreThan4Index = favoriteFood.findIndex(food => food.length > 4);
 
-// Log the results
-console.log("First food with more than 4 letters:", firstFoodWithMoreThan4Characters);       // e.g., "Pizza"
+
+console.log("First food with more than 4 letters:", firstFoodWithMoreThan4Characters);
 console.log("Index of that food:", firstFoodWithMoreThan4Index); 
